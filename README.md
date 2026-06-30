@@ -132,6 +132,32 @@ flutter run
 
 ---
 
+# Deliverables
+
+## 📱 APK
+
+Download the latest APK here:
+
+[⬇️ Download APK](https://github.com/UsamaAliBhatti/Fitness-App/releases/download/v1.0/app-release.apk)
+
+---
+
+## 🎥 Demo Video
+
+Watch the application demo:
+
+[▶️ Watch App Demo Video](https://drive.google.com/file/d/1c0cGVf64uEEIl42gqyIzPNceLjZARBkY/view?usp=sharing)
+
+---
+
+## 📸 Screenshots
+
+View all application screenshots:
+
+[🖼️ View Screenshots](https://github.com/your-username/fitness_app/tree/main/screenshots)
+
+---
+
 ## Author
 
 **Usama Ali**
