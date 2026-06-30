@@ -1,62 +1,137 @@
-# Fitness App (Flutter Interview Task)
+# Fitness App
 
-A Flutter-based fitness application built using **BLoC state management** and clean architecture principles. The app focuses on modular design, scalability, and smooth UI performance.
-
----
-
-## 🚀 Dependencies Used & Why
-
-### 🔹 State Management
-
-- **bloc (9.2.1)**  
-  Used to implement business logic separately from UI. Ensures predictable state transitions and better testability.
-
-- **flutter_bloc (9.1.1)**  
-  Provides Flutter widgets like `BlocProvider`, `BlocBuilder`, and `BlocListener` to easily integrate BLoC with UI.
-
-- **equatable (2.0.8)**  
-  Helps in comparing objects efficiently in BLoC states and events, preventing unnecessary UI rebuilds.
+A Flutter-based Fitness application developed as an interview assignment. The project follows a clean and modular architecture using the **BLoC** pattern for state management, making the codebase scalable, maintainable, and easy to extend.
 
 ---
 
-### 🔹 UI & Assets
+# Dependencies Used & Why
 
-- **flutter_svg (2.3.0)**  
-  Used to render SVG images and icons for scalable and high-quality UI assets.
-
-- **cupertino_icons (1.0.8)**  
-  Provides iOS-style icons for a consistent cross-platform look.
-
----
-
-### 🔹 Utilities
-
-- **intl (0.20.2)**  
-  Used for date formatting, number formatting, and localization support.
+| Dependency | Purpose |
+|------------|---------|
+| **bloc** | Implements the BLoC pattern to separate business logic from the presentation layer. |
+| **flutter_bloc** | Provides Flutter widgets such as `BlocProvider`, `BlocBuilder`, and `BlocListener` for integrating BLoC with the UI. |
+| **equatable** | Simplifies object comparison for BLoC events and states, reducing unnecessary widget rebuilds. |
+| **flutter_svg** | Renders SVG assets for scalable, high-quality icons and illustrations. |
+| **syncfusion_flutter_datepicker** | Provides an advanced and customizable calendar/date picker used in the application. |
+| **intl** | Formats dates, times, and numbers consistently throughout the application. |
+| **cupertino_icons** | Supplies iOS-style icons for a consistent cross-platform experience. |
 
 ---
 
-### 🔹 Feature Components
+# Dev Dependencies
 
-- **syncfusion_flutter_datepicker (33.2.15)**  
-  Used for advanced calendar and date selection with high customization options.
-
----
-
-## 🛠️ Dev Dependencies
-
-- **flutter_test**  
-  Used for unit and widget testing.
-
-- **flutter_lints (6.0.0)**  
-  Enforces recommended Dart/Flutter coding standards for clean and maintainable code.
-
-- **build_runner (2.12.0)**  
-  Used for code generation tasks.
-
-- **flutter_gen_runner**  
-  Generates strongly typed asset references to reduce runtime errors.
+| Dependency | Purpose |
+|------------|---------|
+| **flutter_test** | Used for unit and widget testing. |
+| **flutter_lints** | Enforces recommended coding standards and best practices. |
+| **build_runner** | Generates source code for supported packages. |
+| **flutter_gen_runner** | Generates strongly typed asset references for safer asset management. |
 
 ---
 
-## 📁 Project Structure
+# Project Structure
+
+```text
+lib
+├── core
+│   ├── constants          # Application constants
+│   ├── extensions         # Custom extensions
+│   ├── gen                # Generated assets (FlutterGen)
+│   ├── theme              # App themes & colors
+│   └── utils              # Utility/helper classes
+│
+├── presentation
+│   ├── blocs              # BLoC state management
+│   ├── dashboard_widgets  # Dashboard UI widgets
+│   ├── models             # UI models
+│   ├── mood_widgets       # Mood-related widgets
+│   ├── plan_widgets       # Training plan widgets
+│   ├── views              # Application screens
+│   └── widgets            # Reusable widgets
+│
+└── main.dart              # Application entry point
+```
+
+---
+
+# Architecture
+
+The application follows the **BLoC (Business Logic Component)** architecture.
+
+- Business logic is separated from the UI.
+- UI reacts to state changes through BLoC.
+- Reusable widgets improve maintainability.
+- Modular folder structure makes the project scalable.
+
+---
+
+# Features
+
+- BLoC State Management
+- Dark & Light Theme Support
+- Custom Reusable Widgets
+- SVG Asset Support
+- Interactive Calendar
+- Modular Architecture
+- Responsive UI
+- Strongly Typed Assets using FlutterGen
+
+---
+
+# Getting Started
+
+### Clone the repository
+
+```bash
+git clone https://github.com/your-username/fitness_app.git
+```
+
+### Navigate to the project
+
+```bash
+cd fitness_app
+```
+
+### Install dependencies
+
+```bash
+flutter pub get
+```
+
+### Generate assets
+
+```bash
+dart run build_runner build --delete-conflicting-outputs
+```
+
+### Run the application
+
+```bash
+flutter run
+```
+
+---
+
+# Requirements
+
+- Flutter SDK 3.12+
+- Dart SDK 3.12+
+- Android Studio or VS Code
+- Android Emulator / Physical Device
+
+---
+
+# Built With
+
+- Flutter
+- Dart
+- BLoC
+- Flutter BLoC
+- FlutterGen
+- Syncfusion Date Picker
+
+---
+
+## Author
+
+**Usama Ali**
