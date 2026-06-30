@@ -154,7 +154,7 @@ Watch the application demo:
 
 View all application screenshots:
 
-[🖼️ View Screenshots](https://github.com/your-username/fitness_app/tree/main/screenshots)
+[🖼️ View Screenshots](https://github.com/UsamaAliBhatti/Fitness-App/tree/main/screenshots)
 
 ---
 
