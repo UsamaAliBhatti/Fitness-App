@@ -36,7 +36,6 @@ dependencies:
   cupertino_icons: ^1.0.8
   bloc: ^9.2.1
   flutter_bloc: ^9.1.1
-  syncfusion_flutter_calendar: ^33.2.15
   flutter_svg: ^2.3.0
   equatable: ^2.0.8
   syncfusion_flutter_datepicker: ^33.2.15
